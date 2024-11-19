@@ -1,0 +1,16 @@
+{
+    "name": "aorusx/test3",
+    "description": "test lib",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MyLibrary\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "post-install-cmd": [
+            "MyLibrary\\Installer::postInstall"
+        ]
+    }
+}
