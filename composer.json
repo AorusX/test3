@@ -10,7 +10,7 @@
     "require": {},
     "scripts": {
         "post-install-cmd": [
-            "MyLibrary\\Installer::postInstall"
+            "php scripts/gen-json.php"
         ]
     }
 }
